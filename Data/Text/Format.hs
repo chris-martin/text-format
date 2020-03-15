@@ -41,7 +41,7 @@ import Data.Text.Format.Params (Params(..))
 import Data.Text.Format.Types.Internal (Format(..), Only(..), Shown(..))
 import Data.Text.Format.Types.Internal (Hex(..))
 import Data.Text.Lazy.Builder
-import Prelude hiding (exp, print)
+import Prelude hiding ((<>), exp, print)
 import System.IO (Handle)
 import qualified Data.Double.Conversion.Text as C
 import qualified Data.Text as ST
