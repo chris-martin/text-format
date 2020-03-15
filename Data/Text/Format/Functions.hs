@@ -19,7 +19,8 @@ module Data.Text.Format.Functions
 
 import Data.Monoid (mappend)
 import Data.Text.Lazy.Builder (Builder)
-import GHC.Base
+import GHC.Base hiding ((<>))
+import Prelude hiding ((<>))
 
 -- | Unsafe conversion for decimal digits.
 {-# INLINE i2d #-}
